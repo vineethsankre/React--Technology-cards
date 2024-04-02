@@ -6,10 +6,10 @@ const CardItem = props => {
   return (
     <li className={`${className} cardItem`}>
       <div>
-        <h1>{title}</h1>
-        <p>{description}</p>
+        <h1 className="title">{title}</h1>
+        <p className="description">{description}</p>
       </div>
-      <img src={imgUrl} alt="" />
+      <img className="image" src={imgUrl} alt={title} />
     </li>
   )
 }

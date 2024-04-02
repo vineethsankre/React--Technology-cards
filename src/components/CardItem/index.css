@@ -1,4 +1,15 @@
-
+.cardItem {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  list-style-type: none;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
 .card-1 {
   border-top: 5px solid #ff4f64;
 }
@@ -15,4 +26,17 @@
   border-top: 5px solid #fcc200;
 }
 
-/* Write CSS code here. */
+.title {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 22px;
+}
+.description {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+.image {
+  width: 64px;
+  align-self: flex-end;
+}
