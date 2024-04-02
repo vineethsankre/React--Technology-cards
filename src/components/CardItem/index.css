@@ -1,11 +1,12 @@
 .cardItem {
   background-color: #fff;
-  border-radius: 12px;
-  padding: 20px;
+  border-radius: 20px;
+  padding: 32px 24px 32px 24px;
   list-style-type: none;
-  margin-right: 30px;
-  margin-bottom: 30px;
-  width: 350px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 48px;
+  max-width: 323px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -29,14 +30,16 @@
 .title {
   color: #171f46;
   font-family: 'Roboto';
-  font-size: 22px;
+  font-size: 18px;
+  font-weight: 500;
 }
 .description {
   color: #64748b;
   font-family: 'Roboto';
-  font-size: 12px;
+  font-size: 14px;
 }
 .image {
-  width: 64px;
+  width: 80px;
+  height: 80px;
   align-self: flex-end;
 }
