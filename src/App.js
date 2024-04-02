@@ -1,5 +1,6 @@
 import './App.css'
 
+// eslint-disable-next-line
 const cardsList = [
   {
     id: 1,
@@ -35,6 +36,15 @@ const cardsList = [
   },
 ]
 
-const App = () => <h1>Replace this element with your code</h1>
+const App = () => (
+  <div className="bg-container">
+    <h1 className="heading">Learn 4.0 Technologies</h1>
+    <p className="text">
+      Get trained by alumini of IITs and top companies like Amazon, Microsoft,
+      Intel, Nvidia, Qualcomm, etc. Learn directly from professionals involved
+      in Product Development
+    </p>
+  </div>
+)
 
 export default App
