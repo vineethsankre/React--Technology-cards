@@ -39,13 +39,19 @@ const cardsList = [
 
 const App = () => (
   <div className="bg-container">
-    <h1 className="heading">Learn 4.0 Technologies</h1>
-    <p className="text">Get trained by alumni of IITs and top companies like Amazon, Microsoft, Intel, Nvidia, Qualcomm,etc. Learn directly from professionals invloved in Product Development.</p>
-    <ul className="card-items-list">
-      {cardsList.map(eachCard => (
-        <CardItem card={eachCard} key={eachCard.id} />
-      ))}
-    </ul>
+    <div className="cards-list-container">
+      <h1 className="heading">Learn 4.0 Technologies</h1>
+      <p className="text">
+        Get trained by alumni of IITs and top companies like Amazon, Microsoft,
+        Intel, Nvidia, Qualcomm,etc. Learn directly from professionals invloved
+        in Product Development.
+      </p>
+      <ul className="card-items-list">
+        {cardsList.map(eachCard => (
+          <CardItem card={eachCard} key={eachCard.id} />
+        ))}
+      </ul>
+    </div>
   </div>
 )
 
