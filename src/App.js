@@ -1,4 +1,5 @@
 import './App.css'
+import CardItem from './components/CardItem/index'
 
 // eslint-disable-next-line
 const cardsList = [
@@ -44,6 +45,11 @@ const App = () => (
       Intel, Nvidia, Qualcomm, etc. Learn directly from professionals involved
       in Product Development
     </p>
+    <ul className="card-items-list">
+      {cardsList.map(eachCard => (
+        <CardItem card={eachCard} key={eachCard.id} />
+      ))}
+    </ul>
   </div>
 )
 
